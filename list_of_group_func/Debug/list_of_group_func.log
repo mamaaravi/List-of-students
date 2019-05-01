@@ -1,0 +1,8 @@
+﻿  group_func.cpp
+d:\repos\list_of_group_func\student.h(42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\repos\list_of_group_func\funcdef.h(9): warning C4018: '<': signed/unsigned mismatch
+d:\repos\list_of_group_func\funcdef.h(18): warning C4018: '<': signed/unsigned mismatch
+d:\repos\list_of_group_func\funcdef.h(31): warning C4018: '<': signed/unsigned mismatch
+d:\repos\list_of_group_func\funcdef.h(44): warning C4018: '<': signed/unsigned mismatch
+d:\repos\list_of_group_func\funcdef.h(58): warning C4018: '<': signed/unsigned mismatch
+  list_of_group_func.vcxproj -> D:\repos\list_of_group_func\Debug\list_of_group_func.exe
