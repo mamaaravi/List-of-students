@@ -12,7 +12,10 @@ void OutputVector(vector<Student> a)
 		cout << endl;
 	}
 }
-void best(vector<Student> group)
+
+//seacrh of the best student by mean
+
+void best(vector<Student> group) 
 {
 	Student best;
 	for (int i = 0; i < group.size(); i++)
@@ -24,6 +27,9 @@ void best(vector<Student> group)
 	best.OutputStudent();
 	cout << endl;
 }
+
+//seacrh of the worst student by mean
+
 void worst(vector<Student> group)
 {
 	Student worst;
@@ -38,6 +44,8 @@ void worst(vector<Student> group)
 	cout << endl;
 }
 
+//average point of the group
+
 void groupMean(vector<Student> group)
 {
 	float sum_means = 0;
@@ -47,6 +55,8 @@ void groupMean(vector<Student> group)
 	}
 	cout << "Group mean: " << sum_means / group.size() << endl;
 }
+
+//student search by name & surname
 
 void find(vector<Student> group)
 {
